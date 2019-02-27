@@ -7,7 +7,7 @@ public class RedRobinTest {
 
     @Test
     public void testMove() {
-        Bird redRobin = (Bird)(Object)new RedRobin();
+        Bird redRobin = new RedRobin();
         String expected = "fly";
 
         String actual = redRobin.move();
@@ -17,7 +17,7 @@ public class RedRobinTest {
 
     @Test
     public void testMigrationMonth() {
-        Bird redRobin = (Bird)(Object)new RedRobin();
+        Bird redRobin = new RedRobin();
         String expected = "August";
 
         redRobin.setMigrationMonth(expected);
@@ -28,7 +28,7 @@ public class RedRobinTest {
 
     @Test
     public void testColor() {
-        Animal redRobin = (Animal)(Object)new RedRobin();
+        Animal redRobin = new RedRobin();
         String expected = "red";
 
         String actual = redRobin.color();

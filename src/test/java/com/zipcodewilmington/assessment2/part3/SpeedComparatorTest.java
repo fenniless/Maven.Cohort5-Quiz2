@@ -10,12 +10,12 @@ public class SpeedComparatorTest {
 
     @Test
     public void testArraySort(){
-        Animal horse = (Animal)new Horse();
-        Animal blueJay = (Animal)new BlueJay();
-        Animal redRobin = (Animal)new RedRobin();
+        Animal horse = new Horse();
+        Animal blueJay = new BlueJay();
+        Animal redRobin = new RedRobin();
 
         Animal[] animals = {redRobin, horse, blueJay};
-        Comparator comparator = (Comparator)new SpeedComparator();
+        Comparator comparator = new SpeedComparator();
         Arrays.sort(animals, comparator);
 
         Assert.assertEquals(horse, animals[0]);

@@ -1,13 +1,6 @@
 package com.zipcodewilmington.assessment2.part2;
 
-import com.sun.deploy.util.ArrayUtil;
-import com.sun.tools.javac.util.ArrayUtils;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Stream;
 
 public class ArrayUtility {
     public Integer[] merge(Integer[] array1, Integer[] array2) {

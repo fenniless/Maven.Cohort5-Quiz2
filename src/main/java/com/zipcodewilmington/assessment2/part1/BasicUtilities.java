@@ -1,6 +1,5 @@
 package com.zipcodewilmington.assessment2.part1;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
 
 public class BasicUtilities {
     public Boolean isGreaterThan5(Integer value) {

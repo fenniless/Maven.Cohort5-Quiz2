@@ -7,7 +7,7 @@ public class BlueJayTest {
 
     @Test
     public void testMove() {
-        Bird blueJay = (Bird)(Object)new BlueJay();
+        Bird blueJay = new BlueJay();
         String expected = "fly";
 
         String actual = blueJay.move();
@@ -17,7 +17,7 @@ public class BlueJayTest {
 
     @Test
     public void testColor() {
-        Animal blueJay = (Animal)(Object)new BlueJay();
+        Animal blueJay = new BlueJay();
         String expected = "blue";
 
         String actual = blueJay.color();
